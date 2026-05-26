@@ -2,8 +2,8 @@
 # Copyright (c) 2020-2025 Joel Winarske. All rights reserved.
 #
 
-SUMMARY = "flatpak_flutter_example"
-DESCRIPTION = "An Example Flutter application for the flatpak plugin"
+SUMMARY = "video_player_example"
+DESCRIPTION = "Demonstrates how to use the video_player plugin."
 AUTHOR = "Toyota Connected North America"
 HOMEPAGE = "None"
 BUGTRACKER = "None"
@@ -15,16 +15,9 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=d73cf6ba84211d8b7fd0d2865b678fe8"
 SRCREV = "57b1b51c2cf48cb61760f5ea976bccfe5f75ccbb"
 SRC_URI = "git://github.com/toyota-connected/tcna-packages.git;lfs=0;branch=v2.0;protocol=https"
 
-S = "${WORKDIR}/git"
-
-PUBSPEC_APPNAME = "flatpak_flutter_example"
-FLUTTER_APPLICATION_INSTALL_SUFFIX = "toyota-connected-tcna-packages-flatpak-flutter-example"
+PUBSPEC_APPNAME = "video_player_example"
+FLUTTER_APPLICATION_INSTALL_SUFFIX = "toyota-connected-tcna-packages-video-player-video-player-linux-example-video-player-example"
 PUBSPEC_IGNORE_LOCKFILE = "1"
-FLUTTER_APPLICATION_PATH = "packages/flatpak/example"
+FLUTTER_APPLICATION_PATH = "packages/video_player/video_player_linux/example/basic"
 
 inherit flutter-app
-
-RDEPENDS:${PN} += " \
-    flatpak \
-    xdg-desktop-portal-gnome \
-"

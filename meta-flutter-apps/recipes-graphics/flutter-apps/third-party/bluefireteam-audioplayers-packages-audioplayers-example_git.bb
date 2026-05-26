@@ -12,7 +12,7 @@ SECTION = "graphics"
 LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=c40600261a3b45d01ebc98bcb0a6b2d5"
 
-SRCREV = "71f6a2d89abe33edadfebe8b87e6b39c25d180fa"
+SRCREV = "a3d7e3f8ab1d2bdab854a9650b6d77207e4324dc"
 SRC_URI = "git://github.com/bluefireteam/audioplayers.git;lfs=0;branch=main;protocol=https"
 
 S = "${WORKDIR}/git"

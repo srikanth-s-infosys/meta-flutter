@@ -12,7 +12,7 @@ SECTION = "graphics"
 LICENSE = "Apache-2.0"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=3b83ef96387f14655fc854ddc3c6bd57"
 
-SRCREV = "c3acdba70eb6a6f79d12911361d416d9f0b866d7"
+SRCREV = "a5da272948c0ec97ab31cc2e4691d75f62b9d445"
 SRC_URI = "git://github.com/firebase/FirebaseUI-Flutter;lfs=0;branch=main;protocol=https"
 
 S = "${WORKDIR}/git"
