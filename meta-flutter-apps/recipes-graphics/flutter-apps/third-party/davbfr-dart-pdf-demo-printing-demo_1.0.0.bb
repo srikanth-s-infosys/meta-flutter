@@ -12,7 +12,7 @@ SECTION = "graphics"
 LICENSE = "Apache-2.0"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=5335066555b14d832335aa4660d6c376"
 
-SRCREV = "72d590ed2010debd206fe4eb1797293296d9f109"
+SRCREV = "8ff08f8eff877f7562bc286ced8882e3bf13f3f0"
 SRC_URI = "git://github.com/DavBfr/dart_pdf.git;lfs=0;branch=master;protocol=https"
 
 S = "${WORKDIR}/git"

@@ -9,8 +9,7 @@ PACKAGE_ARCH = "${MACHINE_ARCH}"
 inherit packagegroup
 
 RDEPENDS:${PN} += " \
-    toyota-connected-tcna-packages-video-player-video-player-linux-example-video-player-example \
-    toyota-connected-tcna-packages-video-player-video-player-linux-example \
-    toyota-connected-tcna-packages-filament-scene-fluorite-examples-demo \
     toyota-connected-tcna-packages-camera-linux-camera-example \
+    toyota-connected-tcna-packages-video-player-video-player-linux-video-player-example \
+    toyota-connected-tcna-packages-filament-scene-fluorite-examples-demo \
 "
