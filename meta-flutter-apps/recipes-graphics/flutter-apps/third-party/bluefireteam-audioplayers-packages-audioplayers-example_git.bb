@@ -12,10 +12,8 @@ SECTION = "graphics"
 LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=c40600261a3b45d01ebc98bcb0a6b2d5"
 
-SRCREV = "71f6a2d89abe33edadfebe8b87e6b39c25d180fa"
+SRCREV = "34538a81460b279213b8387c309f098f6d557a13"
 SRC_URI = "git://github.com/bluefireteam/audioplayers.git;lfs=0;branch=main;protocol=https"
-
-S = "${WORKDIR}/git"
 
 PUBSPEC_APPNAME = "audioplayers_example"
 FLUTTER_APPLICATION_INSTALL_SUFFIX = "bluefireteam-audioplayers-packages-audioplayers-example"
